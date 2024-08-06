@@ -34,7 +34,7 @@
 - Stop Send Logs
 
 ### Usage:
-- Install it as normal module via Magisk or KSU or APatch
+- Install it as a normal module via Magisk or KSU or APatch
 
 ### Credits:
 <a href="https://t.me/mrx7014cloud">**MRX7014 Cloud**</a>
