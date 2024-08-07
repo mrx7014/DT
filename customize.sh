@@ -4,14 +4,6 @@ ui_print "
 sleep 2
 
 ui_print "
-- Improves audio and video recording quality...
-"
-sleep 1
-ui_print "
-- Better call voice quality...
-"
-sleep 1
-ui_print "
 - Faster boot time...
 "
 sleep 1
@@ -49,10 +41,6 @@ ui_print "
 sleep 1
 ui_print "
 - Change Default Rendering Driver To Vulkan...
-"
-sleep 1
-ui_print "
-- Disables blackscreen issue after a call ended...
 "
 sleep 1
 ui_print "
