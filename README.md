@@ -23,7 +23,7 @@
 - Better RAM Management
 - Disable Hungry GMS
 - Aggressive Ram Killer (Prop)
-- Kernel Tweak
+- Kernel Tweaks For Better Battery Usage 
 - Zram Setting
 - Stop Send Logs
 
