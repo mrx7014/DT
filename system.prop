@@ -13,6 +13,8 @@ ro.camcorder.videoModes=true
 ro.media.enc.hprof.vid.fps=65
 ro.camera.enableCamera1MaxZsl=1
 camera.disable_zsl_mode=1
+# Better call voice quality
+ro.ril.enable.amr.wideband=1
 # Faster boot time
 persist.sys.shutdown.mode=hibernate
 ro.config.hw_quickpoweron=true
@@ -56,6 +58,8 @@ af.fast_track_multiplier=1
 ro.config.nocheckin=1
 #makes apps load faster and frees more ram.
 dalvik.vm.dexopt-flags=m=y,v=n,o=v,u=n
+#Increase jpg quality to 100%
+ro.media.enc.jpeg.quality=100
 #Dalvik Virtual Machine tweaks
 dalvik.vm.checkjni=false
 dalvik.vm.dexopt-data-only=1
@@ -68,6 +72,9 @@ dalvik.vm.lockprof.threshold=250
 dalvik.vm.dexopt-flags=m=v,o=y
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
 dalvik.vm.jmiopts=forcecopy
+#Make Phone Ring as soon as you get a Call
+ro.telephony.call_ring.delay=0
+ring.delay=0
 # Save Battery Without Performance Drop
 pm.sleep_mode=1
 ro.ril.disable.power.collapse=0
@@ -79,5 +86,5 @@ ro.lge.proximity.delay=25
 mot.proximity.delay=25
 # Better RAM Management
 ro.HOME_APP_ADJ = 1
-# Disable Android logger (log-cat)
+# Disable Android logger – log-cat
 logcat.live=disable

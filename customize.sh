@@ -4,6 +4,14 @@ ui_print "
 sleep 2
 
 ui_print "
+- Improves audio and video recording quality...
+"
+sleep 1
+ui_print "
+- Better call voice quality...
+"
+sleep 1
+ui_print "
 - Faster boot time...
 "
 sleep 1
@@ -32,7 +40,15 @@ ui_print "
 "
 sleep 1
 ui_print "
+- Increase jpg quality to 100%...
+"
+sleep 1
+ui_print "
 - Dalvik Virtual Machine tweaks...
+"
+sleep 1
+ui_print "
+- Make Phone Ring as soon as you get a Call...
 "
 sleep 1
 ui_print "
@@ -41,6 +57,10 @@ ui_print "
 sleep 1
 ui_print "
 - Change Default Rendering Driver To Vulkan...
+"
+sleep 1
+ui_print "
+- Disables blackscreen issue after a call ended...
 "
 sleep 1
 ui_print "
@@ -57,14 +77,6 @@ ui_print "
 sleep 1
 ui_print "
 - Stop Send Logs...
-"
-sleep 1
-ui_print "
-- Kernel Tweak...
-"
-sleep 1
-ui_print "
-- Zram Setting...
 "
 sleep 1
 ui_print " 
