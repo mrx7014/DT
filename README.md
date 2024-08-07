@@ -8,7 +8,7 @@
 
 <br />
 
-# v1.1.0 Released
+# v1.0.0 Released
 
 </div>
 
