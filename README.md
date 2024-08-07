@@ -8,13 +8,11 @@
 
 <br />
 
-# v1.0.0 Released
+# v1.1.0 Released
 
 </div>
 
 ### Features:
-- Improves audio and video recording quality
-- Better call voice quality
 - Faster boot time
 - Better Responsiveness & Speed
 - Zygote preforking
@@ -22,12 +20,9 @@
 - Audio Improvements
 - Disables sending of usage data
 - Makes apps load faster and frees more ram.
-- Increase jpg quality to 100%
 - Dalvik Virtual Machine tweaks
-- Make Phone Ring as soon as you get a Call
 - Save Battery Without Performance Drop
 - Change Default Rendering Driver 
-- Disables blackscreen issue after a 
 - Better RAM Management
 - Disable Hungry GMS
 - Aggressive Ram Killer (Prop)
