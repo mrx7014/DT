@@ -8,7 +8,7 @@
 
 <br />
 
-# v2.0.0 - Stable Released
+# v3.0.0 - Stable Released
 
 </div>
 
@@ -28,7 +28,7 @@
 - Stop Send Logs
 
 ### Usage:
-- Install it as a normal module via Magisk or KSU or APatch
+- Install it as a normal module via Magisk, KSU, or APatch
 
 ### Credits:
 <a href="https://t.me/mrx7014cloud">**MRX7014 Cloud**</a>
