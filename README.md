@@ -6,6 +6,8 @@
 
 **Working on all devices**
 
+# ⚠️ Module Archived, So don't ask me about it anymore.
+
 <br />
 
 # V3.0.0 - Stable Released
