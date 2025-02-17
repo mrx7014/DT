@@ -1,0 +1,36 @@
+name: Build DT Magisk Module
+
+on:
+  workflow_dispatch:
+   inputs:
+      tag_name:
+        description: 'Tag name to build (e.g., v1.0.0)'
+        required: true
+        type: string
+
+jobs:
+  build:
+    name: Build DT Magisk Module
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Create DT Zip
+        run: |
+          zip -r DT-${{ github.event.inputs.tag_name }}.zip . -x ".git*" -x ".github*" -x "DT-Banner.jpg" -x "DT_banner.jpg" -x "README.md"
+    
+      - name: Create a tag
+        run: |
+          git tag ${{ github.run_id }}
+          git push origin ${{ github.run_id }}
+
+      - name: Upload DT to Releases
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            DT-${{ github.event.inputs.tag_name }}.zip
+          tag_name: ${{ github.run_id }}
+          release_name: DT
+          body: |
+            ${{ github.run_id }}
+            DT ${{ github.event.inputs.tag_name }}
