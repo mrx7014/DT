@@ -26,6 +26,9 @@
 - Kernel Tweaks For Better Battery Usage 
 - Zram Setting
 - Stop Send Logs
+- Enable Hardware Acceleration for Graphics Rendering
+- Add Vulkan X6739 Props
+- Update Vulkan Verison to 1.3
 
 ### Usage:
 - Install it as a normal module via Magisk, KSU, or APatch

@@ -46,6 +46,18 @@ ui_print "
 - Stop Send Logs...
 "
 sleep 1
+ui_print "
+- Enable Hardware Acceleration for Graphics Rendering
+"
+sleep 1
+ui_print "
+- Add Vulkan X6739 Props
+"
+sleep 1
+ui_print "
+- Update Vulkan Verison to 1.3
+"
+sleep 1
 ui_print " 
 - DT installation Done
 "

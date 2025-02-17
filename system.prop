@@ -48,6 +48,16 @@ ro.ril.sensor.sleep.control=1
 ro.ril.power_collapse=1
 # Change Default Rendering Driver To Vulkan
 debug.hwui.renderer=vulkan
+# Vulkan X6739
+debug.hwui.renderer=vulkan
+debug.renderengine.backend=vulkan
+vendor.debug.renderengine.backend=vulkan
+ro.hwui.hardware.vulkan=true
+ro.hwui.use_vulkan=true
+# Enable Hardware Acceleration for Graphics Rendering
+debug.egl.hw=1
+# Tweak GPU Perfomace
+ro.zygote.disable_gl_preload=1
 # Better RAM Management
 ro.HOME_APP_ADJ=15
 ro.FOREGROUND_APP_ADJ=0
