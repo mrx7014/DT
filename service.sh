@@ -1,6 +1,6 @@
 #!/system/bin/sh
 
-# DT by @MRX7014
+# DT X YAKT by @MRX7014
 
 # Start DT Tweaks
 
@@ -277,3 +277,9 @@ settings put global activity_manager_constants max_cached_processes 5
 
 # Stop log
 su -c "stop logd"
+
+# YAKT Script
+#!/system/bin/sh
+MODDIR=${0%/*}
+
+"${MODDIR}/yakt.sh" > /dev/null
