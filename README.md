@@ -1,4 +1,4 @@
-# DT - Device Tweaker
+# DT - Device Tweaker X YAKT
 
 <div align="center"><img src="DT-banner.jpg">
   
@@ -8,7 +8,7 @@
 
 <br />
 
-# V4.0.0 - Stable Released
+# V5.0.0 - Stable Released
 
 </div>
 
