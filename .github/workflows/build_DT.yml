@@ -17,7 +17,7 @@ jobs:
       
       - name: Create DT Zip
         run: |
-          zip -r DT-${{ github.event.inputs.tag_name }}.zip . -x ".git*" -x ".github*" -x "DT-Banner.jpg" -x "DT_banner.jpg" -x "README.md"
+          zip -r DT-${{ github.event.inputs.tag_name }}.zip . -x ".git*" -x ".github*" -x "DT-Banner.jpg" -x "README.md"
     
       - name: Create a tag
         run: |
