@@ -12,7 +12,7 @@
 
 </div>
 
-### Features:
+### DT Features:
 - Faster boot time
 - Better Responsiveness & Speed
 - FPS Stabilizer
@@ -28,7 +28,19 @@
 - Stop Send Logs
 - Enable Hardware Acceleration for Graphics Rendering
 - Add Vulkan X6739 Props
-- Update Vulkan Verison to 1.3
+
+### YAKT Features:
+- Reduces Jitter and Latency
+- Optimizes Ram Management
+- Disables scheduler logs/stats
+- Disables printk logs
+- Disables SPI CRC
+- Tweaks mglru
+- Allows sched boosting on top-app tasks (Thx to tytydraco)
+- Tweaks uclamp scheduler (Credits to darkhz for uclamp tweak)
+- Sets -20 (highest priority) for the most essential processes
+- Uses Google's schedutil rate-limits from Pixel 3- Update Vulkan Verison to 1.3
+
 
 ### Usage:
 - Install it as a normal module via Magisk, KSU, or APatch
