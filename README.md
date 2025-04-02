@@ -1,4 +1,4 @@
-# DT - Device Tweaker X YAKT
+# DT - Device Tweaker
 
 <div align="center"><img src="DT-banner.jpg">
   
@@ -8,7 +8,7 @@
 
 <br />
 
-# V5.0.0 - Stable Released
+# V6.0.0 - Stable Released
 
 </div>
 
@@ -28,21 +28,9 @@
 - Stop Send Logs
 - Enable Hardware Acceleration for Graphics Rendering
 - Add Vulkan X6739 Props
+- Update Vulkan Version to V1.3
 
-### YAKT Features:
-- Reduces Jitter and Latency
-- Optimizes Ram Management
-- Disables scheduler logs/stats
-- Disables printk logs
-- Disables SPI CRC
-- Tweaks mglru
-- Allows sched boosting on top-app tasks (Thx to tytydraco)
-- Tweaks uclamp scheduler (Credits to darkhz for uclamp tweak)
-- Sets -20 (highest priority) for the most essential processes
-- Uses Google's schedutil rate-limits from Pixel 3- Update Vulkan Verison to 1.3
-
-
-### Usage:
+### Installation:
 - Install it as a normal module via Magisk, KSU, or APatch
 
 ### Credits:

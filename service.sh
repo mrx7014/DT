@@ -277,9 +277,3 @@ settings put global activity_manager_constants max_cached_processes 5
 
 # Stop log
 su -c "stop logd"
-
-# YAKT Script
-#!/system/bin/sh
-MODDIR=${0%/*}
-
-"${MODDIR}/yakt.sh" > /dev/null

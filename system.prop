@@ -1,5 +1,5 @@
 ###DT - Device Tweaker
-#V5.0.0
+#V6.0.0
 ###By: MRX7014
 
 #build.prop tweaks
@@ -8,8 +8,6 @@
 ro.config.hw_power_saving=1
 ro.config.hw_fast_dormancy=1
 ro.config.hw_quickpoweron=true
-persist.sys.shutdown.mode=hibernate
-persist.sys.use_dithering=0
 ro.mot.eri.losalert.delay=1000
 ro.ril.sensor.sleep.control=1
 
@@ -37,16 +35,13 @@ windowsmgr.max_events_per_sec=300
 
 # FPS Stabilizer & Graphics Optimization
 debug.sf.showupdates=0
-debug.sf.showcpu=0
 debug.sf.showbackground=0
-debug.sf.showfps=0
 debug.hwui.renderer=vulkan
 debug.renderengine.backend=vulkan
 vendor.debug.renderengine.backend=vulkan
 ro.hwui.hardware.vulkan=true
 ro.hwui.use_vulkan=true
 debug.egl.hw=1
-ro.zygote.disable_gl_preload=1
 
 # RAM Management & Performance
 ro.HOME_APP_ADJ=15
@@ -54,13 +49,9 @@ ro.FOREGROUND_APP_ADJ=0
 ro.VISIBLE_APP_ADJ=4
 ro.HIDDEN_APP_MIN_ADJ=7
 dalvik.vm.dexopt-flags=m=y,v=n,o=v,u=n
-dalvik.vm.heapgrowthlimit=128m
-dalvik.vm.heapsize=256m
 
 # Battery Optimization
-pm.sleep_mode=1
 ro.ril.disable.power.collapse=0
-wifi.supplicant_scan_interval=180
 ro.ril.power_collapse=1
 
 # Camera Tweaks
@@ -78,8 +69,6 @@ ro.media.capture.maxres=8m
 ro.media.panorama.defres=3264×1840
 ro.media.panorama.frameres=1280×720
 ro.media.enc.hprof.vid.fps=65
-ro.camera.enableCamera1MaxZsl=1
-camera.disable_zsl_mode=1
 
 # Audio Enhancements
 vendor.audio.media.stereo.control=0
@@ -127,3 +116,8 @@ media.stagefright.enable-scan=true
 media.stagefright.enable-http=true
 media.stagefright.enable-rtsp=true
 media.stagefright.enable-record=false
+
+# Spoof CPU & GPU // SnapDragon 8 Elite & Adreno830
+ro.soc.model=SM8750-3-AB
+ro.gpu.model=Adreno830
+ro.gpu=Adreno830
