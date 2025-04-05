@@ -29,7 +29,7 @@ jobs:
         with:
           files: |
             DT-${{ github.event.inputs.tag_name }}.zip
-          tag_name: ${{ github.event.inputs.tag_name }}-Stable
+          tag_name: ${{ github.event.inputs.tag_name }}
           release_name: DT
           body: |
             DT ${{ github.event.inputs.tag_name }}
