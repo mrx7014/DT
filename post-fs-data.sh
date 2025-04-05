@@ -1,7 +1,6 @@
 #!/system/bin/sh
 
 # DT by @MRX7014
-# Start DT Tweaks
 
 # VM Settings 
 echo 100 > /proc/sys/vm/swappiness
@@ -78,3 +77,30 @@ echo "0   0   0   0" > /proc/sys/kernel/printk
 echo 0 > /proc/sys/kernel/printk_delay
 echo 0 > /proc/sys/kernel/printk_ratelimit_burst
 echo 0 > /proc/sys/kernel/printk_ratelimit
+
+# Quick Boot
+setprop ro.config.hw_quickpoweron true
+
+setprop debug.composition.type gpu
+setprop debug_hw_overdraw 0 
+
+setprop debug.sf.enable_hwc_vds 0
+setprop debug.sf.early_app_phase_offset_ns 500000
+setprop debug.sf.early_gl_phase_offset_ns 3000000
+setprop debug.sf.early_gl_app_phase_offset_ns 15000000
+setprop debug.sf.early_phase_offset_ns 500000
+setprop debug.sf.late.sf.duration 27600000
+setprop debug.sf.late.app.duration 20000000
+setprop debug.sf.early.sf.duration 27600000
+setprop debug.sf.early.app.duration 20000000
+setprop debug.sf.earlyGl.sf.duration 27600000
+setprop debug.sf.earlyGl.app.duration 20000000
+
+echo 0 > /proc/sys/vm/oom_kill_allocating_task
+echo 1 > /proc/sys/vm/overcommit_memory
+echo 1 > /proc/sys/vm/oom_dump_tasks
+echo 3 > /proc/sys/vm/drop_caches
+echo 0 > /proc/sys/kernel/panic
+echo 0 > /proc/sys/kernel/panic_on_oops
+echo 0 > /proc/sys/kernel/panic_on_warn
+echo 24 > /sys/block/ram0/queue/read_ahead_kb

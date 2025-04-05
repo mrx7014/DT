@@ -1,5 +1,5 @@
 ###DT - Device Tweaker
-#V6.0.0
+#V7.0.0
 ###By: MRX7014
 
 #build.prop tweaks
@@ -121,3 +121,6 @@ media.stagefright.enable-record=false
 ro.soc.model=SM8750-3-AB
 ro.gpu.model=Adreno830
 ro.gpu=Adreno830
+
+# GPU vulkan-capable (Use GPU instead of CPU while rendering)
+debug.composition.type=gpu

@@ -1,37 +1,43 @@
 ui_print "*******************************"
-ui_print "*      DT - Device Tweaker    *"
-ui_print "* Applying Performance Tweaks *"
+ui_print "*     DT - Device Tweaker    *"
+ui_print "* Change your device to Flagship *"
 ui_print "*******************************"
-sleep 1
-ui_print "- Optimizing boot time... 🚀"
-sleep 1
-ui_print "- Enhancing responsiveness & speed... ⚡"
-sleep 1
-ui_print "- Stabilizing FPS for smoother performance... 🎮"
-sleep 1
-ui_print "- Disabling data collection & tracking... 🔒"
-sleep 1
-ui_print "- Accelerating app launch & freeing RAM... 🏎️"
-sleep 1
-ui_print "- Extending battery life without performance drop... 🔋"
-sleep 1
-ui_print "- Switching rendering driver to Vulkan for better graphics... 🎨"
-sleep 1
-ui_print "- Improving RAM management for efficiency... 🧠"
-sleep 1
-ui_print "- Disabling unnecessary Google Mobile Services (GMS)... 📉"
-sleep 1
-ui_print "- Enabling aggressive RAM killer (Prop tweak)... 🗑️"
-sleep 1
-ui_print "- Stopping unnecessary log sending... 🚫"
-sleep 1
-ui_print "- Enabling hardware acceleration for smoother graphics... 🖥️"
-sleep 1
-ui_print "- Adding Vulkan X6739 properties... 🔧"
-sleep 1
-ui_print "- Updating Vulkan version to 1.3... 🆕"
-sleep 4
-ui_print "✅ Tweaks Applied Successfully!"
 sleep 2
-ui_print "📢 Join our Telegram channel for updates: ➡️ https://t.me/mrx7014cloud"
-sleep 4
+ui_print "Important : Android 14 (SDK 34) is needed for Full Vulkan 1.4 - Mesa Turnip support"
+sleep 3
+ui_print " "
+ui_print "🔧 Applying Tweaks (0/13)..."
+sleep 2
+ui_print "- [1/13] Optimizing boot time... 🚀"
+sleep 2
+ui_print "- [2/13] Enhancing responsiveness & speed... ⚡"
+sleep 2
+ui_print "- [3/13] Stabilizing FPS for smoother performance... 🎮"
+sleep 2
+ui_print "- [4/13] Disabling data collection & tracking... 🔒"
+sleep 2
+ui_print "- [5/13] Accelerating app launch & freeing RAM... 🏎️"
+sleep 2
+ui_print "- [6/13] Extending battery life... 🔋"
+sleep 2
+ui_print "- [7/13] Switching to Vulkan graphics... 🎨"
+sleep 2
+ui_print "- [8/13] Updating Vulkan version to 1.4 - Mesa Turnip Version... 🆕"
+sleep 2
+ui_print "- [9/13] Improving RAM management... 🧠"
+sleep 2
+ui_print "- [10/13] Disabling unnecessary GMS... 📉"
+sleep 2
+ui_print "- [11/13] Enabling aggressive RAM killer... 🗑️"
+sleep 2
+ui_print "- [12/13] Stopping diagnostic logs... 🚫"
+sleep 2
+ui_print "- [13/13] Finalizing tweaks... ⚙️"
+sleep 5
+ui_print " "
+ui_print "✅ Tweaks Applied Successfully!"
+ui_print " "
+ui_print "DT Version: 7.0.0"
+ui_print "📢 Join Telegram: @MRX7014Cloud"
+ui_print "💡 Reboot to activate changes"
+sleep 2

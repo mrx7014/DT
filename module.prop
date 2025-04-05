@@ -1,6 +1,7 @@
 id=DT
 name=DT - DeviceTweaker
-version=6.0.0
-versionCode=600
+version=v7.0.0
+versionCode=20250405
 author=MRX7014
-description=DT: A tweaker module that can improve any device smoothness and stability
+description=A tweaker module that can improve any device performance and stability (Gaming, Daily Useage, etc...)
+updateJson=https://raw.githubusercontent.com/mrx7014/DT/refs/heads/master/update.json
